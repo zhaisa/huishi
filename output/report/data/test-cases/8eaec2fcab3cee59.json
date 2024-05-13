@@ -1,0 +1,127 @@
+{
+  "uid" : "8eaec2fcab3cee59",
+  "name" : "test_shenqingproduct[username1]",
+  "fullName" : "test_shenqingproduct.Test_ShenQingProduct#test_shenqingproduct",
+  "historyId" : "07dd85289d81802a8346e72b62dd2411",
+  "time" : {
+    "start" : 1686303403665,
+    "stop" : 1686303450959,
+    "duration" : 47294
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1686303356821,
+      "stop" : 1686303356873,
+      "duration" : 52
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a462362299894a98",
+      "name" : "stdout",
+      "source" : "a462362299894a98.txt",
+      "type" : "text/plain",
+      "size" : 693
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_shenqingproduct"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_ShenQingProduct"
+  }, {
+    "name" : "host",
+    "value" : "mrzhai"
+  }, {
+    "name" : "thread",
+    "value" : "10400-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_shenqingproduct"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "username",
+    "value" : "('013700540125',)"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b9fe78a6f325e848",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[3]/div[1]/div[1]/ul/li[2]\"}\n  (Session info: chrome=114.0.5735.110)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x00C6A813+48355]\n\t(No symbol) [0x00BFC4B1]\n\t(No symbol) [0x00B05358]\n\t(No symbol) [0x00B309A5]\n\t(No symbol) [0x00B30B3B]\n\t(No symbol) [0x00B5E232]\n\t(No symbol) [0x00B4A784]\n\t(No symbol) [0x00B5C922]\n\t(No symbol) [0x00B4A536]\n\t(No symbol) [0x00B282DC]\n\t(No symbol) [0x00B293DD]\n\tGetHandleVerifier [0x00ECAABD+2539405]\n\tGetHandleVerifier [0x00F0A78F+2800735]\n\tGetHandleVerifier [0x00F0456C+2775612]\n\tGetHandleVerifier [0x00CF51E0+616112]\n\t(No symbol) [0x00C05F8C]\n\t(No symbol) [0x00C02328]\n\t(No symbol) [0x00C0240B]\n\t(No symbol) [0x00BF4FF7]\n\tBaseThreadInitThunk [0x771000C9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77CE7B4E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77CE7B1E+238]",
+      "time" : {
+        "start" : 1686301640100,
+        "stop" : 1686301687321,
+        "duration" : 47221
+      }
+    }, {
+      "uid" : "7f6281be0cf67bfa",
+      "status" : "broken",
+      "statusDetails" : "TypeError: sequence item 0: expected str instance, int found",
+      "time" : {
+        "start" : 1686301424730,
+        "stop" : 1686301430728,
+        "duration" : 5998
+      }
+    }, {
+      "uid" : "c2ccd3db394e747c",
+      "status" : "broken",
+      "statusDetails" : "TypeError: sequence item 0: expected str instance, int found",
+      "time" : {
+        "start" : 1686301085643,
+        "stop" : 1686301091492,
+        "duration" : 5849
+      }
+    }, {
+      "uid" : "8bcaf2f4f59c3913",
+      "status" : "broken",
+      "statusDetails" : "TypeError: sequence item 0: expected str instance, int found",
+      "time" : {
+        "start" : 1686300985833,
+        "stop" : 1686300992008,
+        "duration" : 6175
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8eaec2fcab3cee59.json",
+  "parameterValues" : [ "('013700540125',)" ]
+}

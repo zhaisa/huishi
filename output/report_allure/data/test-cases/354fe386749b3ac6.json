@@ -1,0 +1,78 @@
+{
+  "uid" : "354fe386749b3ac6",
+  "name" : "test_chubuyusuan_PPP",
+  "fullName" : "case.touzi.test_chubuyusuan_PPP#test_chubuyusuan_PPP",
+  "historyId" : "ffdaa23cd39719a4df856c076f0fef0b",
+  "time" : {
+    "start" : 1700189308027,
+    "stop" : 1700189308028,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "statusMessage" : "_pytest.fixtures.FixtureLookupError: ('projectname', <FixtureRequest for <Function test_chubuyusuan_PPP>>)",
+  "statusTrace" : "file D:\\gyhlw\\case\\touzi\\test_chubuyusuan_PPP.py, line 11\n  def test_chubuyusuan_PPP(projectname):\nE       fixture 'projectname' not found\n>       available fixtures: _session_faker, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, faker, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory\n>       use 'pytest --fixtures [testpath]' for help on them.\n\nD:\\gyhlw\\case\\touzi\\test_chubuyusuan_PPP.py:11",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1700189306972,
+      "stop" : 1700189307173,
+      "duration" : 201
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case.touzi"
+  }, {
+    "name" : "suite",
+    "value" : "test_chubuyusuan_PPP"
+  }, {
+    "name" : "host",
+    "value" : "mrzhai"
+  }, {
+    "name" : "thread",
+    "value" : "23032-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.touzi.test_chubuyusuan_PPP"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "354fe386749b3ac6.json",
+  "parameterValues" : [ ]
+}

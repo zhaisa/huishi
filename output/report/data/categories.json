@@ -1,0 +1,123 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "UnboundLocalError: local variable 'loginelement' referenced before assignment",
+      "children" : [ {
+        "name" : "test_add",
+        "uid" : "934b139a9897898d",
+        "parentUid" : "7083ba06ef82e91ef915b10cd858df01",
+        "status" : "broken",
+        "time" : {
+          "start" : 1681694817956,
+          "stop" : 1681694919385,
+          "duration" : 101429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 9,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7083ba06ef82e91ef915b10cd858df01"
+    }, {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('content', <FixtureRequest for <Function test_answerquestion>>)",
+      "children" : [ {
+        "name" : "test_answerquestion",
+        "uid" : "ddf2c348ab9d4fc1",
+        "parentUid" : "353b48d03d2b8827f07b90cce3b4d299",
+        "status" : "broken",
+        "time" : {
+          "start" : 1683689629344,
+          "stop" : 1683689629344,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "353b48d03d2b8827f07b90cce3b4d299"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/section/header/div/div[1]/div[1]/img\"}\n  (Session info: chrome=113.0.5672.126)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x01108893+48451]\n\t(No symbol) [0x0109B8A1]\n\t(No symbol) [0x00FA5058]\n\t(No symbol) [0x00FD0467]\n\t(No symbol) [0x00FD069B]\n\t(No symbol) [0x00FFDD92]\n\t(No symbol) [0x00FEA304]\n\t(No symbol) [0x00FFC482]\n\t(No symbol) [0x00FEA0B6]\n\t(No symbol) [0x00FC7E08]\n\t(No symbol) [0x00FC8F2D]\n\tGetHandleVerifier [0x01368E3A+2540266]\n\tGetHandleVerifier [0x013A8959+2801161]\n\tGetHandleVerifier [0x013A295C+2776588]\n\tGetHandleVerifier [0x01192280+612144]\n\t(No symbol) [0x010A4F6C]\n\t(No symbol) [0x010A11D8]\n\t(No symbol) [0x010A12BB]\n\t(No symbol) [0x01094857]\n\tBaseThreadInitThunk [0x76C500C9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77D47B4E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77D47B1E+238]",
+      "children" : [ {
+        "name" : "test_answerquestion[content0]",
+        "uid" : "3ba876a7bc778131",
+        "parentUid" : "f95e6e39e1d6d73369d8050944ee29a1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1684459999160,
+          "stop" : 1684460056358,
+          "duration" : 57198
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 22,
+        "retriesStatusChange" : true,
+        "parameters" : [ "('python',)" ]
+      }, {
+        "name" : "test_answerquestion[content1]",
+        "uid" : "9de7bb64ae31c813",
+        "parentUid" : "f95e6e39e1d6d73369d8050944ee29a1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1684460056442,
+          "stop" : 1684460092221,
+          "duration" : 35779
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ "('c++',)" ]
+      }, {
+        "name" : "test_answerquestion[content2]",
+        "uid" : "da0836116bf4924f",
+        "parentUid" : "f95e6e39e1d6d73369d8050944ee29a1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1684460092252,
+          "stop" : 1684460125628,
+          "duration" : 33376
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ "('java',)" ]
+      }, {
+        "name" : "test_answerquestion[content4]",
+        "uid" : "b08c6fb01b7bc184",
+        "parentUid" : "f95e6e39e1d6d73369d8050944ee29a1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1684460183949,
+          "stop" : 1684460212701,
+          "duration" : 28752
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "('请问安装mysql的时候，为什么要先创建data?不创建就无法启动',)" ]
+      } ],
+      "uid" : "f95e6e39e1d6d73369d8050944ee29a1"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

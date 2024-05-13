@@ -1,0 +1,418 @@
+{
+  "7ed8898ef34884f729694b1cfe6958f0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab376165eacd80bf",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('projectname', <FixtureRequest for <Function test_touzixiangmuku>>)",
+      "time" : {
+        "start" : 1700189308068,
+        "stop" : 1700189308068,
+        "duration" : 0
+      }
+    } ]
+  },
+  "54016af2efc4998aeed49e290c1764dc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f5bcaea7e0e4eb67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700201638326,
+        "stop" : 1700201698187,
+        "duration" : 59861
+      }
+    } ]
+  },
+  "1620c4a96037755cc59c4752369d21cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9477d6b2f5a404c1",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('company', <FixtureRequest for <Function test_jichuxinxi>>)",
+      "time" : {
+        "start" : 1700189308090,
+        "stop" : 1700189308090,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4ad670e1bbda878a870d86231f1e4f71" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c60ef534ec19f9d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 0",
+      "time" : {
+        "start" : 1700820186176,
+        "stop" : 1700820243384,
+        "duration" : 57208
+      }
+    } ]
+  },
+  "3ad5bd48c53ca9618517faf9ad9bc89f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8bd0acab3278a587",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('projectname', <FixtureRequest for <Function test_zhengshiyusuan_zengzi>>)",
+      "time" : {
+        "start" : 1700189308054,
+        "stop" : 1700189308054,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d65b966bab4f723b8f9cbefd1a1f3c09" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a5bf8ab715b94019",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home",
+      "time" : {
+        "start" : 1700189307801,
+        "stop" : 1700189307991,
+        "duration" : 190
+      }
+    } ]
+  },
+  "64b58d4638cdbb76bf09754119fc053e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e2b65d110b3d7b12",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('projectname', <FixtureRequest for <Function test_zhengshiyusuan_gutou>>)",
+      "time" : {
+        "start" : 1700189308119,
+        "stop" : 1700189308119,
+        "duration" : 0
+      }
+    } ]
+  },
+  "fd8f9b68ee7cb26535eaa282f93d42c1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dfab1f240c3a2baf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700201757918,
+        "stop" : 1700201819515,
+        "duration" : 61597
+      }
+    } ]
+  },
+  "5816c84b3f04a791282e4fccc6626efa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ac8c16213c5550f1",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('projectname', <FixtureRequest for <Function test_zhengshiyusuan_PPP>>)",
+      "time" : {
+        "start" : 1700189308099,
+        "stop" : 1700189308099,
+        "duration" : 0
+      }
+    } ]
+  },
+  "5016a04747354139d3d28591763e1820" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "66012f82d3196067",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('projectname', <FixtureRequest for <Function test_zhengshiyusuan_changqiguquan>>)",
+      "time" : {
+        "start" : 1700189308110,
+        "stop" : 1700189308110,
+        "duration" : 0
+      }
+    } ]
+  },
+  "5d8f3638fd293a3907ea67c7cd71e704" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "517ada3fc3fa7d7",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('projectname', <FixtureRequest for <Function test_chubuyusuan_gutou>>)",
+      "time" : {
+        "start" : 1700189308045,
+        "stop" : 1700189308045,
+        "duration" : 0
+      }
+    } ]
+  },
+  "5d1c54a88c633021e0e42ae8f3a482d7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b9d7e93c37f49e9",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('projectname', <FixtureRequest for <Function test_changqiguquan_zongbujuece>>)",
+      "time" : {
+        "start" : 1700189308010,
+        "stop" : 1700189308010,
+        "duration" : 0
+      }
+    } ]
+  },
+  "ffdaa23cd39719a4df856c076f0fef0b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "354fe386749b3ac6",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('projectname', <FixtureRequest for <Function test_chubuyusuan_PPP>>)",
+      "time" : {
+        "start" : 1700189308027,
+        "stop" : 1700189308028,
+        "duration" : 1
+      }
+    } ]
+  },
+  "8cbda75ebc5685c52ceedeb7b8a43b0d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e7e5d34c74b33107",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('projectname', <FixtureRequest for <Function test_zhengshiyusuan_changqiguquan>>)",
+      "time" : {
+        "start" : 1700189308037,
+        "stop" : 1700189308037,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d7d172601faddc24b579be4867a1635e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5ff2bb279f088ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700201698192,
+        "stop" : 1700201757915,
+        "duration" : 59723
+      }
+    } ]
+  },
+  "9d0475bb7b2fa0ef2c19f3121dd25f10" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ee007eee1cab7a75",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home",
+      "time" : {
+        "start" : 1700189307173,
+        "stop" : 1700189307702,
+        "duration" : 529
+      }
+    } ]
+  },
+  "66ccab3b54ed68df13ad7e976462af47" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "450266e1c64fe8a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 0",
+      "time" : {
+        "start" : 1700820300254,
+        "stop" : 1700820354451,
+        "duration" : 54197
+      }
+    } ]
+  },
+  "b1ba7c3787dab6f50d631bdbefd19d4d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2c2695e8f55c4f9d",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('projectname', <FixtureRequest for <Function test_zhengshiyusuan_zengzi>>)",
+      "time" : {
+        "start" : 1700189308059,
+        "stop" : 1700189308059,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d6112285509bb78d3f35bad22566519b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a18fb4b528d8f846",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('projectname', <FixtureRequest for <Function test_zhengshiyusuan_zengzi>>)",
+      "time" : {
+        "start" : 1700189308131,
+        "stop" : 1700189308131,
+        "duration" : 0
+      }
+    } ]
+  },
+  "8a81e85829cb5477bfa0945861dc25ce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "233e21e53a3e948a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700199437401,
+        "stop" : 1700199501495,
+        "duration" : 64094
+      }
+    } ]
+  },
+  "6438471c5f1328aa60ba8de0a76cfef1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e49df7ada81202c",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('projectname', <FixtureRequest for <Function test_changqiguquan_lixiang>>)",
+      "time" : {
+        "start" : 1700189307785,
+        "stop" : 1700189307785,
+        "duration" : 0
+      }
+    } ]
+  }
+}

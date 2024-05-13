@@ -1,0 +1,89 @@
+{
+  "uid" : "d85564b2553c2b0a",
+  "name" : "test_answerquestion[content3]",
+  "fullName" : "test_answerquestion.Test_Answerquestion#test_answerquestion",
+  "historyId" : "b0aaccd48606a59c5e187f098ae22aee",
+  "time" : {
+    "start" : 1683947847071,
+    "stop" : 1683947894826,
+    "duration" : 47755
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1683947701755,
+      "stop" : 1683947701810,
+      "duration" : 55
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "26347cfdab656953",
+      "name" : "stdout",
+      "source" : "26347cfdab656953.txt",
+      "type" : "text/plain",
+      "size" : 111
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_answerquestion"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Answerquestion"
+  }, {
+    "name" : "host",
+    "value" : "mrzhai"
+  }, {
+    "name" : "thread",
+    "value" : "31160-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_answerquestion"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "content",
+    "value" : "('js',)"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d85564b2553c2b0a.json",
+  "parameterValues" : [ "('js',)" ]
+}

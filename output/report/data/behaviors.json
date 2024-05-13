@@ -1,0 +1,192 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_login",
+    "uid" : "869da0f2e7ba891f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1679553886193,
+      "stop" : 1679553907128,
+      "duration" : 20935
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_add",
+    "uid" : "934b139a9897898d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1681694817956,
+      "stop" : 1681694919385,
+      "duration" : 101429
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 9,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_answerquestion",
+    "uid" : "ddf2c348ab9d4fc1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1683689629344,
+      "stop" : 1683689629344,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 3,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_answerquestion[content0]",
+    "uid" : "3ba876a7bc778131",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1684459999160,
+      "stop" : 1684460056358,
+      "duration" : 57198
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 22,
+    "retriesStatusChange" : true,
+    "parameters" : [ "('python',)" ]
+  }, {
+    "name" : "test_answerquestion[content1]",
+    "uid" : "9de7bb64ae31c813",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1684460056442,
+      "stop" : 1684460092221,
+      "duration" : 35779
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 3,
+    "retriesStatusChange" : true,
+    "parameters" : [ "('c++',)" ]
+  }, {
+    "name" : "test_answerquestion[content2]",
+    "uid" : "da0836116bf4924f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1684460092252,
+      "stop" : 1684460125628,
+      "duration" : 33376
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 3,
+    "retriesStatusChange" : true,
+    "parameters" : [ "('java',)" ]
+  }, {
+    "name" : "test_answerquestion[content3]",
+    "uid" : "debb7e97e4caf364",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1684460125659,
+      "stop" : 1684460183949,
+      "duration" : 58290
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ "('js',)" ]
+  }, {
+    "name" : "test_answerquestion[content4]",
+    "uid" : "b08c6fb01b7bc184",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1684460183949,
+      "stop" : 1684460212701,
+      "duration" : 28752
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : true,
+    "parameters" : [ "('请问安装mysql的时候，为什么要先创建data?不创建就无法启动',)" ]
+  }, {
+    "name" : "test_shenqingproduct[username0]",
+    "uid" : "c0958420b3298c49",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1686303356873,
+      "stop" : 1686303403661,
+      "duration" : 46788
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 4,
+    "retriesStatusChange" : true,
+    "parameters" : [ "('013700440224',)" ]
+  }, {
+    "name" : "test_shenqingproduct[username1]",
+    "uid" : "8eaec2fcab3cee59",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1686303403665,
+      "stop" : 1686303450959,
+      "duration" : 47294
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 4,
+    "retriesStatusChange" : true,
+    "parameters" : [ "('013700540125',)" ]
+  }, {
+    "name" : "test_shenpi",
+    "uid" : "797883a28cc4fcbb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1686303450963,
+      "stop" : 1686303450963,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 3,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  } ]
+}

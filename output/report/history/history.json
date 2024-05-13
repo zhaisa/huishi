@@ -1,0 +1,218 @@
+{
+  "e059f0a32f93534582e39a1f705a9305" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "934b139a9897898d",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'loginelement' referenced before assignment",
+      "time" : {
+        "start" : 1681694817956,
+        "stop" : 1681694919385,
+        "duration" : 101429
+      }
+    } ]
+  },
+  "a3587e44e0e4ba925454d7b01b1c9365" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ba876a7bc778131",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/section/header/div/div[1]/div[1]/img\"}\n  (Session info: chrome=113.0.5672.126)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x01108893+48451]\n\t(No symbol) [0x0109B8A1]\n\t(No symbol) [0x00FA5058]\n\t(No symbol) [0x00FD0467]\n\t(No symbol) [0x00FD069B]\n\t(No symbol) [0x00FFDD92]\n\t(No symbol) [0x00FEA304]\n\t(No symbol) [0x00FFC482]\n\t(No symbol) [0x00FEA0B6]\n\t(No symbol) [0x00FC7E08]\n\t(No symbol) [0x00FC8F2D]\n\tGetHandleVerifier [0x01368E3A+2540266]\n\tGetHandleVerifier [0x013A8959+2801161]\n\tGetHandleVerifier [0x013A295C+2776588]\n\tGetHandleVerifier [0x01192280+612144]\n\t(No symbol) [0x010A4F6C]\n\t(No symbol) [0x010A11D8]\n\t(No symbol) [0x010A12BB]\n\t(No symbol) [0x01094857]\n\tBaseThreadInitThunk [0x76C500C9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77D47B4E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77D47B1E+238]",
+      "time" : {
+        "start" : 1684459999160,
+        "stop" : 1684460056358,
+        "duration" : 57198
+      }
+    } ]
+  },
+  "041a02ed189d1b614b5dd952f8315752" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b08c6fb01b7bc184",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/section/header/div/div[1]/div[1]/img\"}\n  (Session info: chrome=113.0.5672.126)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x01108893+48451]\n\t(No symbol) [0x0109B8A1]\n\t(No symbol) [0x00FA5058]\n\t(No symbol) [0x00FD0467]\n\t(No symbol) [0x00FD069B]\n\t(No symbol) [0x00FFDD92]\n\t(No symbol) [0x00FEA304]\n\t(No symbol) [0x00FFC482]\n\t(No symbol) [0x00FEA0B6]\n\t(No symbol) [0x00FC7E08]\n\t(No symbol) [0x00FC8F2D]\n\tGetHandleVerifier [0x01368E3A+2540266]\n\tGetHandleVerifier [0x013A8959+2801161]\n\tGetHandleVerifier [0x013A295C+2776588]\n\tGetHandleVerifier [0x01192280+612144]\n\t(No symbol) [0x010A4F6C]\n\t(No symbol) [0x010A11D8]\n\t(No symbol) [0x010A12BB]\n\t(No symbol) [0x01094857]\n\tBaseThreadInitThunk [0x76C500C9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77D47B4E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77D47B1E+238]",
+      "time" : {
+        "start" : 1684460183949,
+        "stop" : 1684460212701,
+        "duration" : 28752
+      }
+    } ]
+  },
+  "e89d55119d0d0b27949276410205b5f2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9de7bb64ae31c813",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/section/header/div/div[1]/div[1]/img\"}\n  (Session info: chrome=113.0.5672.126)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x01108893+48451]\n\t(No symbol) [0x0109B8A1]\n\t(No symbol) [0x00FA5058]\n\t(No symbol) [0x00FD0467]\n\t(No symbol) [0x00FD069B]\n\t(No symbol) [0x00FFDD92]\n\t(No symbol) [0x00FEA304]\n\t(No symbol) [0x00FFC482]\n\t(No symbol) [0x00FEA0B6]\n\t(No symbol) [0x00FC7E08]\n\t(No symbol) [0x00FC8F2D]\n\tGetHandleVerifier [0x01368E3A+2540266]\n\tGetHandleVerifier [0x013A8959+2801161]\n\tGetHandleVerifier [0x013A295C+2776588]\n\tGetHandleVerifier [0x01192280+612144]\n\t(No symbol) [0x010A4F6C]\n\t(No symbol) [0x010A11D8]\n\t(No symbol) [0x010A12BB]\n\t(No symbol) [0x01094857]\n\tBaseThreadInitThunk [0x76C500C9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77D47B4E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77D47B1E+238]",
+      "time" : {
+        "start" : 1684460056442,
+        "stop" : 1684460092221,
+        "duration" : 35779
+      }
+    } ]
+  },
+  "fb79d41fa183ff2653dcf61e9ecdc7ad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c0958420b3298c49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1686303356873,
+        "stop" : 1686303403661,
+        "duration" : 46788
+      }
+    } ]
+  },
+  "f70e18859a873fe796c035d1aa2335be" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "869da0f2e7ba891f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679553886193,
+        "stop" : 1679553907128,
+        "duration" : 20935
+      }
+    } ]
+  },
+  "7dd2a49ace2782be2f82121d06515521" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da0836116bf4924f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/section/header/div/div[1]/div[1]/img\"}\n  (Session info: chrome=113.0.5672.126)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x01108893+48451]\n\t(No symbol) [0x0109B8A1]\n\t(No symbol) [0x00FA5058]\n\t(No symbol) [0x00FD0467]\n\t(No symbol) [0x00FD069B]\n\t(No symbol) [0x00FFDD92]\n\t(No symbol) [0x00FEA304]\n\t(No symbol) [0x00FFC482]\n\t(No symbol) [0x00FEA0B6]\n\t(No symbol) [0x00FC7E08]\n\t(No symbol) [0x00FC8F2D]\n\tGetHandleVerifier [0x01368E3A+2540266]\n\tGetHandleVerifier [0x013A8959+2801161]\n\tGetHandleVerifier [0x013A295C+2776588]\n\tGetHandleVerifier [0x01192280+612144]\n\t(No symbol) [0x010A4F6C]\n\t(No symbol) [0x010A11D8]\n\t(No symbol) [0x010A12BB]\n\t(No symbol) [0x01094857]\n\tBaseThreadInitThunk [0x76C500C9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77D47B4E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77D47B1E+238]",
+      "time" : {
+        "start" : 1684460092252,
+        "stop" : 1684460125628,
+        "duration" : 33376
+      }
+    } ]
+  },
+  "07dd85289d81802a8346e72b62dd2411" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8eaec2fcab3cee59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1686303403665,
+        "stop" : 1686303450959,
+        "duration" : 47294
+      }
+    } ]
+  },
+  "ef85525539ef14070a2daa8934e1c5f7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ddf2c348ab9d4fc1",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('content', <FixtureRequest for <Function test_answerquestion>>)",
+      "time" : {
+        "start" : 1683689629344,
+        "stop" : 1683689629344,
+        "duration" : 0
+      }
+    } ]
+  },
+  "b0aaccd48606a59c5e187f098ae22aee" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "debb7e97e4caf364",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684460125659,
+        "stop" : 1684460183949,
+        "duration" : 58290
+      }
+    } ]
+  },
+  "41c908704775aade111e5dec2e97558d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "797883a28cc4fcbb",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 就是不想执行",
+      "time" : {
+        "start" : 1686303450963,
+        "stop" : 1686303450963,
+        "duration" : 0
+      }
+    } ]
+  }
+}

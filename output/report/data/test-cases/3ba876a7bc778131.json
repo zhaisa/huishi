@@ -1,0 +1,275 @@
+{
+  "uid" : "3ba876a7bc778131",
+  "name" : "test_answerquestion[content0]",
+  "fullName" : "test_answerquestion.Test_Answerquestion#test_answerquestion",
+  "historyId" : "a3587e44e0e4ba925454d7b01b1c9365",
+  "time" : {
+    "start" : 1684459999160,
+    "stop" : 1684460056358,
+    "duration" : 57198
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/section/header/div/div[1]/div[1]/img\"}\n  (Session info: chrome=113.0.5672.126)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x01108893+48451]\n\t(No symbol) [0x0109B8A1]\n\t(No symbol) [0x00FA5058]\n\t(No symbol) [0x00FD0467]\n\t(No symbol) [0x00FD069B]\n\t(No symbol) [0x00FFDD92]\n\t(No symbol) [0x00FEA304]\n\t(No symbol) [0x00FFC482]\n\t(No symbol) [0x00FEA0B6]\n\t(No symbol) [0x00FC7E08]\n\t(No symbol) [0x00FC8F2D]\n\tGetHandleVerifier [0x01368E3A+2540266]\n\tGetHandleVerifier [0x013A8959+2801161]\n\tGetHandleVerifier [0x013A295C+2776588]\n\tGetHandleVerifier [0x01192280+612144]\n\t(No symbol) [0x010A4F6C]\n\t(No symbol) [0x010A11D8]\n\t(No symbol) [0x010A12BB]\n\t(No symbol) [0x01094857]\n\tBaseThreadInitThunk [0x76C500C9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77D47B4E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77D47B1E+238]",
+  "statusTrace" : "self = <case.test_answerquestion.Test_Answerquestion object at 0x000001E4FBFB7C50>\ncontent = ('python',)\n\n    @pytest.mark.parametrize(\"content\",reda_pytestdata(yamlfile, 'test_answerquestion'))\n    def test_answerquestion(self,content):\n    \n        wd=webdriver.Chrome()\n        wd.maximize_window()\n        wd.get('http://10.22.33.101:32752/ind_net_fvue/index')\n        time.sleep(1)\n        try:\n            loginelement=wd.find_element(By.XPATH,'//*[@id=\"app\"]/section/div/div[1]/div/ul/div[2]/li[4]/div/span')\n            #//*[@id=\"app\"]/section/div/div[1]/div/ul/div[2]/li[4]/div/span\n        except NoSuchElementException:\n            print('没有登录这个元素')\n        loginelement.click()\n        # handles=wd.window_handles\n        # wd.switch_to.window(handles[1])\n        # print(wd.current_url)\n        wd.find_element(By.XPATH,'//*[@id=\"app\"]/section/section/main/div/div/div/div/form/div[2]/div/div[1]/input').send_keys('450000000395')\n        wd.find_element(By.XPATH,'//*[@id=\"app\"]/section/section/main/div/div/div/div/form/div[3]/div/div[1]/input').send_keys('Indnet123&')\n        wd.find_element(By.XPATH,'//*[@id=\"app\"]/section/section/main/div/div/div/div/form/div[4]/button').click()\n        time.sleep(2)\n>       wd.find_element(By.XPATH,'//*[@id=\"app\"]/section/header/div/div[1]/div[1]/img').click()\n\ntest_answerquestion.py:36: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:830: in find_element\n    return self.execute(Command.FIND_ELEMENT, {\"using\": by, \"value\": value})[\"value\"]\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:440: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x000001E4FBFC0D68>\nresponse = {'status': 404, 'value': '{\"value\":{\"error\":\"no such element\",\"message\":\"no such element: Unable to locate element: {\\...\\n\\\\tRtlGetAppContainerNamedObjectPath [0x77D47B4E+286]\\\\n\\\\tRtlGetAppContainerNamedObjectPath [0x77D47B1E+238]\\\\n\"}}'}\n\n    def check_response(self, response: Dict[str, Any]) -> None:\n        \"\"\"Checks that a JSON response from the WebDriver does not have an\n        error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get(\"status\", None)\n        if not status or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen: str = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get(\"value\", None)\n            if value_json and isinstance(value_json, str):\n                import json\n    \n                try:\n                    value = json.loads(value_json)\n                    if len(value.keys()) == 1:\n                        value = value[\"value\"]\n                    status = value.get(\"error\", None)\n                    if not status:\n                        status = value.get(\"status\", ErrorCode.UNKNOWN_ERROR)\n                        message = value.get(\"value\") or value.get(\"message\")\n                        if not isinstance(message, str):\n                            value = message\n                            message = message.get(\"message\")\n                    else:\n                        message = value.get(\"message\", None)\n                except ValueError:\n                    pass\n    \n        exception_class: Type[WebDriverException]\n        if status in ErrorCode.NO_SUCH_ELEMENT:\n            exception_class = NoSuchElementException\n        elif status in ErrorCode.NO_SUCH_FRAME:\n            exception_class = NoSuchFrameException\n        elif status in ErrorCode.NO_SUCH_SHADOW_ROOT:\n            exception_class = NoSuchShadowRootException\n        elif status in ErrorCode.NO_SUCH_WINDOW:\n            exception_class = NoSuchWindowException\n        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:\n            exception_class = StaleElementReferenceException\n        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:\n            exception_class = ElementNotVisibleException\n        elif status in ErrorCode.INVALID_ELEMENT_STATE:\n            exception_class = InvalidElementStateException\n        elif (\n            status in ErrorCode.INVALID_SELECTOR\n            or status in ErrorCode.INVALID_XPATH_SELECTOR\n            or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER\n        ):\n            exception_class = InvalidSelectorException\n        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:\n            exception_class = ElementNotSelectableException\n        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:\n            exception_class = ElementNotInteractableException\n        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:\n            exception_class = InvalidCookieDomainException\n        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:\n            exception_class = UnableToSetCookieException\n        elif status in ErrorCode.TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.SCRIPT_TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.UNKNOWN_ERROR:\n            exception_class = WebDriverException\n        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:\n            exception_class = UnexpectedAlertPresentException\n        elif status in ErrorCode.NO_ALERT_OPEN:\n            exception_class = NoAlertPresentException\n        elif status in ErrorCode.IME_NOT_AVAILABLE:\n            exception_class = ImeNotAvailableException\n        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:\n            exception_class = ImeActivationFailedException\n        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:\n            exception_class = MoveTargetOutOfBoundsException\n        elif status in ErrorCode.JAVASCRIPT_ERROR:\n            exception_class = JavascriptException\n        elif status in ErrorCode.SESSION_NOT_CREATED:\n            exception_class = SessionNotCreatedException\n        elif status in ErrorCode.INVALID_ARGUMENT:\n            exception_class = InvalidArgumentException\n        elif status in ErrorCode.NO_SUCH_COOKIE:\n            exception_class = NoSuchCookieException\n        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:\n            exception_class = ScreenshotException\n        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:\n            exception_class = ElementClickInterceptedException\n        elif status in ErrorCode.INSECURE_CERTIFICATE:\n            exception_class = InsecureCertificateException\n        elif status in ErrorCode.INVALID_COORDINATES:\n            exception_class = InvalidCoordinatesException\n        elif status in ErrorCode.INVALID_SESSION_ID:\n            exception_class = InvalidSessionIdException\n        elif status in ErrorCode.UNKNOWN_METHOD:\n            exception_class = UnknownMethodException\n        else:\n            exception_class = WebDriverException\n        if not value:\n            value = response[\"value\"]\n        if isinstance(value, str):\n            raise exception_class(value)\n        if message == \"\" and \"message\" in value:\n            message = value[\"message\"]\n    \n        screen = None  # type: ignore[assignment]\n        if \"screen\" in value:\n            screen = value[\"screen\"]\n    \n        stacktrace = None\n        st_value = value.get(\"stackTrace\") or value.get(\"stacktrace\")\n        if st_value:\n            if isinstance(st_value, str):\n                stacktrace = st_value.split(\"\\n\")\n            else:\n                stacktrace = []\n                try:\n                    for frame in st_value:\n                        line = frame.get(\"lineNumber\", \"\")\n                        file = frame.get(\"fileName\", \"<anonymous>\")\n                        if line:\n                            file = f\"{file}:{line}\"\n                        meth = frame.get(\"methodName\", \"<anonymous>\")\n                        if \"className\" in frame:\n                            meth = f\"{frame['className']}.{meth}\"\n                        msg = \"    at %s (%s)\"\n                        msg = msg % (meth, file)\n                        stacktrace.append(msg)\n                except TypeError:\n                    pass\n        if exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if \"data\" in value:\n                alert_text = value[\"data\"].get(\"text\")\n            elif \"alert\" in value:\n                alert_text = value[\"alert\"].get(\"text\")\n            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/section/header/div/div[1]/div[1]/img\"}\nE         (Session info: chrome=113.0.5672.126)\nE       Stacktrace:\nE       Backtrace:\nE       \tGetHandleVerifier [0x01108893+48451]\nE       \t(No symbol) [0x0109B8A1]\nE       \t(No symbol) [0x00FA5058]\nE       \t(No symbol) [0x00FD0467]\nE       \t(No symbol) [0x00FD069B]\nE       \t(No symbol) [0x00FFDD92]\nE       \t(No symbol) [0x00FEA304]\nE       \t(No symbol) [0x00FFC482]\nE       \t(No symbol) [0x00FEA0B6]\nE       \t(No symbol) [0x00FC7E08]\nE       \t(No symbol) [0x00FC8F2D]\nE       \tGetHandleVerifier [0x01368E3A+2540266]\nE       \tGetHandleVerifier [0x013A8959+2801161]\nE       \tGetHandleVerifier [0x013A295C+2776588]\nE       \tGetHandleVerifier [0x01192280+612144]\nE       \t(No symbol) [0x010A4F6C]\nE       \t(No symbol) [0x010A11D8]\nE       \t(No symbol) [0x010A12BB]\nE       \t(No symbol) [0x01094857]\nE       \tBaseThreadInitThunk [0x76C500C9+25]\nE       \tRtlGetAppContainerNamedObjectPath [0x77D47B4E+286]\nE       \tRtlGetAppContainerNamedObjectPath [0x77D47B1E+238]\n\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py:245: NoSuchElementException",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 22,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1684459999113,
+      "stop" : 1684459999160,
+      "duration" : 47
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_answerquestion"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Answerquestion"
+  }, {
+    "name" : "host",
+    "value" : "mrzhai"
+  }, {
+    "name" : "thread",
+    "value" : "2388-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_answerquestion"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "content",
+    "value" : "('python',)"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f9676d035dc95328",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684117631367,
+        "stop" : 1684117692337,
+        "duration" : 60970
+      }
+    }, {
+      "uid" : "e351f193970f54f9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/section/header/div/div[1]/div[1]/img\"}\n  (Session info: chrome=112.0.5615.138)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x0066DCE3+50899]\n\t(No symbol) [0x005FE111]\n\t(No symbol) [0x00505588]\n\t(No symbol) [0x005308F9]\n\t(No symbol) [0x00530AFB]\n\t(No symbol) [0x0055F902]\n\t(No symbol) [0x0054B944]\n\t(No symbol) [0x0055E01C]\n\t(No symbol) [0x0054B6F6]\n\t(No symbol) [0x00527708]\n\t(No symbol) [0x0052886D]\n\tGetHandleVerifier [0x008D3EAE+2566302]\n\tGetHandleVerifier [0x009092B1+2784417]\n\tGetHandleVerifier [0x0090327C+2759788]\n\tGetHandleVerifier [0x00705740+672048]\n\t(No symbol) [0x00608872]\n\t(No symbol) [0x006041C8]\n\t(No symbol) [0x006042AB]\n\t(No symbol) [0x005F71B7]\n\tBaseThreadInitThunk [0x773A0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B3E+238]",
+      "time" : {
+        "start" : 1684112654406,
+        "stop" : 1684112733241,
+        "duration" : 78835
+      }
+    }, {
+      "uid" : "ce9d090dbe7e03e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683947701811,
+        "stop" : 1683947747715,
+        "duration" : 45904
+      }
+    }, {
+      "uid" : "1ad92844a7c1127",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683947454378,
+        "stop" : 1683947501657,
+        "duration" : 47279
+      }
+    }, {
+      "uid" : "ae42185383794fde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683947336460,
+        "stop" : 1683947382318,
+        "duration" : 45858
+      }
+    }, {
+      "uid" : "a68c30afefd5baec",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchFrameException: Message: tinymceId16_ifr",
+      "time" : {
+        "start" : 1683946854077,
+        "stop" : 1683946881013,
+        "duration" : 26936
+      }
+    }, {
+      "uid" : "6e5799a37bcb6b12",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"cascader-menu-7741-0\"-0]/span\"}\n  (Session info: chrome=112.0.5615.138)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x00CEDCE3+50899]\n\t(No symbol) [0x00C7E111]\n\t(No symbol) [0x00B85588]\n\t(No symbol) [0x00BB08F9]\n\t(No symbol) [0x00BB0AFB]\n\t(No symbol) [0x00BDF902]\n\t(No symbol) [0x00BCB944]\n\t(No symbol) [0x00BDE01C]\n\t(No symbol) [0x00BCB6F6]\n\t(No symbol) [0x00BA7708]\n\t(No symbol) [0x00BA886D]\n\tGetHandleVerifier [0x00F53EAE+2566302]\n\tGetHandleVerifier [0x00F892B1+2784417]\n\tGetHandleVerifier [0x00F8327C+2759788]\n\tGetHandleVerifier [0x00D85740+672048]\n\t(No symbol) [0x00C88872]\n\t(No symbol) [0x00C841C8]\n\t(No symbol) [0x00C842AB]\n\t(No symbol) [0x00C771B7]\n\tBaseThreadInitThunk [0x773A0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B3E+238]",
+      "time" : {
+        "start" : 1683946510797,
+        "stop" : 1683946538241,
+        "duration" : 27444
+      }
+    }, {
+      "uid" : "6f42a1771069fe8e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"cascader-menu-7486-0\"]/span\"}\n  (Session info: chrome=112.0.5615.138)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x00CEDCE3+50899]\n\t(No symbol) [0x00C7E111]\n\t(No symbol) [0x00B85588]\n\t(No symbol) [0x00BB08F9]\n\t(No symbol) [0x00BB0AFB]\n\t(No symbol) [0x00BDF902]\n\t(No symbol) [0x00BCB944]\n\t(No symbol) [0x00BDE01C]\n\t(No symbol) [0x00BCB6F6]\n\t(No symbol) [0x00BA7708]\n\t(No symbol) [0x00BA886D]\n\tGetHandleVerifier [0x00F53EAE+2566302]\n\tGetHandleVerifier [0x00F892B1+2784417]\n\tGetHandleVerifier [0x00F8327C+2759788]\n\tGetHandleVerifier [0x00D85740+672048]\n\t(No symbol) [0x00C88872]\n\t(No symbol) [0x00C841C8]\n\t(No symbol) [0x00C842AB]\n\t(No symbol) [0x00C771B7]\n\tBaseThreadInitThunk [0x773A0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B3E+238]",
+      "time" : {
+        "start" : 1683945796078,
+        "stop" : 1683945821791,
+        "duration" : 25713
+      }
+    }, {
+      "uid" : "98d85105502278f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"cascader-menu-4426-0\"]/span\"}\n  (Session info: chrome=112.0.5615.138)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x00CEDCE3+50899]\n\t(No symbol) [0x00C7E111]\n\t(No symbol) [0x00B85588]\n\t(No symbol) [0x00BB08F9]\n\t(No symbol) [0x00BB0AFB]\n\t(No symbol) [0x00BDF902]\n\t(No symbol) [0x00BCB944]\n\t(No symbol) [0x00BDE01C]\n\t(No symbol) [0x00BCB6F6]\n\t(No symbol) [0x00BA7708]\n\t(No symbol) [0x00BA886D]\n\tGetHandleVerifier [0x00F53EAE+2566302]\n\tGetHandleVerifier [0x00F892B1+2784417]\n\tGetHandleVerifier [0x00F8327C+2759788]\n\tGetHandleVerifier [0x00D85740+672048]\n\t(No symbol) [0x00C88872]\n\t(No symbol) [0x00C841C8]\n\t(No symbol) [0x00C842AB]\n\t(No symbol) [0x00C771B7]\n\tBaseThreadInitThunk [0x773A0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B3E+238]",
+      "time" : {
+        "start" : 1683945719510,
+        "stop" : 1683945744924,
+        "duration" : 25414
+      }
+    }, {
+      "uid" : "2c78474b93c6a108",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.138)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x00CEDCE3+50899]\n\t(No symbol) [0x00C7E111]\n\t(No symbol) [0x00B85588]\n\t(No symbol) [0x00B6D333]\n\t(No symbol) [0x00BCF4DB]\n\t(No symbol) [0x00BDDB33]\n\t(No symbol) [0x00BCB6F6]\n\t(No symbol) [0x00BA7708]\n\t(No symbol) [0x00BA886D]\n\tGetHandleVerifier [0x00F53EAE+2566302]\n\tGetHandleVerifier [0x00F892B1+2784417]\n\tGetHandleVerifier [0x00F8327C+2759788]\n\tGetHandleVerifier [0x00D85740+672048]\n\t(No symbol) [0x00C88872]\n\t(No symbol) [0x00C841C8]\n\t(No symbol) [0x00C842AB]\n\t(No symbol) [0x00C771B7]\n\tBaseThreadInitThunk [0x773A0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B3E+238]",
+      "time" : {
+        "start" : 1683945705753,
+        "stop" : 1683945710546,
+        "duration" : 4793
+      }
+    }, {
+      "uid" : "15de34db39e1cd6b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: can only concatenate str (not \"NoneType\") to str",
+      "time" : {
+        "start" : 1683945363594,
+        "stop" : 1683945391815,
+        "duration" : 28221
+      }
+    }, {
+      "uid" : "6e1db8edb20f306b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: can only concatenate str (not \"NoneType\") to str",
+      "time" : {
+        "start" : 1683944942859,
+        "stop" : 1683944971760,
+        "duration" : 28901
+      }
+    }, {
+      "uid" : "51f785ac9e2ca954",
+      "status" : "broken",
+      "statusDetails" : "TypeError: can only concatenate str (not \"NoneType\") to str",
+      "time" : {
+        "start" : 1683944697326,
+        "stop" : 1683944723375,
+        "duration" : 26049
+      }
+    }, {
+      "uid" : "fe794d0711962879",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"cascader-menu-985-0-0\"]/span\"}\n  (Session info: chrome=112.0.5615.138)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x00CEDCE3+50899]\n\t(No symbol) [0x00C7E111]\n\t(No symbol) [0x00B85588]\n\t(No symbol) [0x00BB08F9]\n\t(No symbol) [0x00BB0AFB]\n\t(No symbol) [0x00BDF902]\n\t(No symbol) [0x00BCB944]\n\t(No symbol) [0x00BDE01C]\n\t(No symbol) [0x00BCB6F6]\n\t(No symbol) [0x00BA7708]\n\t(No symbol) [0x00BA886D]\n\tGetHandleVerifier [0x00F53EAE+2566302]\n\tGetHandleVerifier [0x00F892B1+2784417]\n\tGetHandleVerifier [0x00F8327C+2759788]\n\tGetHandleVerifier [0x00D85740+672048]\n\t(No symbol) [0x00C88872]\n\t(No symbol) [0x00C841C8]\n\t(No symbol) [0x00C842AB]\n\t(No symbol) [0x00C771B7]\n\tBaseThreadInitThunk [0x773A0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B3E+238]",
+      "time" : {
+        "start" : 1683944164205,
+        "stop" : 1683944189322,
+        "duration" : 25117
+      }
+    }, {
+      "uid" : "3cf5630a318e2db9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"cascader-menu-985-0-0\"]/span\"}\n  (Session info: chrome=112.0.5615.138)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x00CEDCE3+50899]\n\t(No symbol) [0x00C7E111]\n\t(No symbol) [0x00B85588]\n\t(No symbol) [0x00BB08F9]\n\t(No symbol) [0x00BB0AFB]\n\t(No symbol) [0x00BDF902]\n\t(No symbol) [0x00BCB944]\n\t(No symbol) [0x00BDE01C]\n\t(No symbol) [0x00BCB6F6]\n\t(No symbol) [0x00BA7708]\n\t(No symbol) [0x00BA886D]\n\tGetHandleVerifier [0x00F53EAE+2566302]\n\tGetHandleVerifier [0x00F892B1+2784417]\n\tGetHandleVerifier [0x00F8327C+2759788]\n\tGetHandleVerifier [0x00D85740+672048]\n\t(No symbol) [0x00C88872]\n\t(No symbol) [0x00C841C8]\n\t(No symbol) [0x00C842AB]\n\t(No symbol) [0x00C771B7]\n\tBaseThreadInitThunk [0x773A0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B3E+238]",
+      "time" : {
+        "start" : 1683944081016,
+        "stop" : 1683944100462,
+        "duration" : 19446
+      }
+    }, {
+      "uid" : "35bebc38d875bbd0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=112.0.5615.138)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x00CEDCE3+50899]\n\t(No symbol) [0x00C7E111]\n\t(No symbol) [0x00B85450]\n\t(No symbol) [0x00BB1846]\n\t(No symbol) [0x00BA94A5]\n\t(No symbol) [0x00BCB8FC]\n\t(No symbol) [0x00BA8EC6]\n\t(No symbol) [0x00BCBC54]\n\t(No symbol) [0x00BDE01C]\n\t(No symbol) [0x00BCB6F6]\n\t(No symbol) [0x00BA7708]\n\t(No symbol) [0x00BA886D]\n\tGetHandleVerifier [0x00F53EAE+2566302]\n\tGetHandleVerifier [0x00F892B1+2784417]\n\tGetHandleVerifier [0x00F8327C+2759788]\n\tGetHandleVerifier [0x00D85740+672048]\n\t(No symbol) [0x00C88872]\n\t(No symbol) [0x00C841C8]\n\t(No symbol) [0x00C842AB]\n\t(No symbol) [0x00C771B7]\n\tBaseThreadInitThunk [0x773A0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B3E+238]",
+      "time" : {
+        "start" : 1683943984735,
+        "stop" : 1683944004478,
+        "duration" : 19743
+      }
+    }, {
+      "uid" : "d110831b3238431b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".submit\"}\n  (Session info: chrome=112.0.5615.138)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x00CEDCE3+50899]\n\t(No symbol) [0x00C7E111]\n\t(No symbol) [0x00B85588]\n\t(No symbol) [0x00BB08F9]\n\t(No symbol) [0x00BB0AFB]\n\t(No symbol) [0x00BDF902]\n\t(No symbol) [0x00BCB944]\n\t(No symbol) [0x00BDE01C]\n\t(No symbol) [0x00BCB6F6]\n\t(No symbol) [0x00BA7708]\n\t(No symbol) [0x00BA886D]\n\tGetHandleVerifier [0x00F53EAE+2566302]\n\tGetHandleVerifier [0x00F892B1+2784417]\n\tGetHandleVerifier [0x00F8327C+2759788]\n\tGetHandleVerifier [0x00D85740+672048]\n\t(No symbol) [0x00C88872]\n\t(No symbol) [0x00C841C8]\n\t(No symbol) [0x00C842AB]\n\t(No symbol) [0x00C771B7]\n\tBaseThreadInitThunk [0x773A0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B3E+238]",
+      "time" : {
+        "start" : 1683943903727,
+        "stop" : 1683943924538,
+        "duration" : 20811
+      }
+    }, {
+      "uid" : "405bf0a6f526d6f1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".submit\"}\n  (Session info: chrome=112.0.5615.138)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x00CEDCE3+50899]\n\t(No symbol) [0x00C7E111]\n\t(No symbol) [0x00B85588]\n\t(No symbol) [0x00BB08F9]\n\t(No symbol) [0x00BB0AFB]\n\t(No symbol) [0x00BDF902]\n\t(No symbol) [0x00BCB944]\n\t(No symbol) [0x00BDE01C]\n\t(No symbol) [0x00BCB6F6]\n\t(No symbol) [0x00BA7708]\n\t(No symbol) [0x00BA886D]\n\tGetHandleVerifier [0x00F53EAE+2566302]\n\tGetHandleVerifier [0x00F892B1+2784417]\n\tGetHandleVerifier [0x00F8327C+2759788]\n\tGetHandleVerifier [0x00D85740+672048]\n\t(No symbol) [0x00C88872]\n\t(No symbol) [0x00C841C8]\n\t(No symbol) [0x00C842AB]\n\t(No symbol) [0x00C771B7]\n\tBaseThreadInitThunk [0x773A0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B3E+238]",
+      "time" : {
+        "start" : 1683943500879,
+        "stop" : 1683943521091,
+        "duration" : 20212
+      }
+    }, {
+      "uid" : "6458f3884f18e5a6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/section/div/div[1]/div/img\"}\n  (Session info: chrome=112.0.5615.138)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x00CEDCE3+50899]\n\t(No symbol) [0x00C7E111]\n\t(No symbol) [0x00B85588]\n\t(No symbol) [0x00BB08F9]\n\t(No symbol) [0x00BB0AFB]\n\t(No symbol) [0x00BDF902]\n\t(No symbol) [0x00BCB944]\n\t(No symbol) [0x00BDE01C]\n\t(No symbol) [0x00BCB6F6]\n\t(No symbol) [0x00BA7708]\n\t(No symbol) [0x00BA886D]\n\tGetHandleVerifier [0x00F53EAE+2566302]\n\tGetHandleVerifier [0x00F892B1+2784417]\n\tGetHandleVerifier [0x00F8327C+2759788]\n\tGetHandleVerifier [0x00D85740+672048]\n\t(No symbol) [0x00C88872]\n\t(No symbol) [0x00C841C8]\n\t(No symbol) [0x00C842AB]\n\t(No symbol) [0x00C771B7]\n\tBaseThreadInitThunk [0x773A0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B3E+238]",
+      "time" : {
+        "start" : 1683943382949,
+        "stop" : 1683943398607,
+        "duration" : 15658
+      }
+    }, {
+      "uid" : "dc19120b802f4e64",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/section/div/div[1]/div/img\"}\n  (Session info: chrome=112.0.5615.138)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x00CEDCE3+50899]\n\t(No symbol) [0x00C7E111]\n\t(No symbol) [0x00B85588]\n\t(No symbol) [0x00BB08F9]\n\t(No symbol) [0x00BB0AFB]\n\t(No symbol) [0x00BDF902]\n\t(No symbol) [0x00BCB944]\n\t(No symbol) [0x00BDE01C]\n\t(No symbol) [0x00BCB6F6]\n\t(No symbol) [0x00BA7708]\n\t(No symbol) [0x00BA886D]\n\tGetHandleVerifier [0x00F53EAE+2566302]\n\tGetHandleVerifier [0x00F892B1+2784417]\n\tGetHandleVerifier [0x00F8327C+2759788]\n\tGetHandleVerifier [0x00D85740+672048]\n\t(No symbol) [0x00C88872]\n\t(No symbol) [0x00C841C8]\n\t(No symbol) [0x00C842AB]\n\t(No symbol) [0x00C771B7]\n\tBaseThreadInitThunk [0x773A0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C87B3E+238]",
+      "time" : {
+        "start" : 1683943299717,
+        "stop" : 1683943314944,
+        "duration" : 15227
+      }
+    }, {
+      "uid" : "15a3ddf56a085fb9",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1683943233592,
+        "stop" : 1683943247747,
+        "duration" : 14155
+      }
+    }, {
+      "uid" : "52c1d68b4beda82e",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'loginelement' referenced before assignment",
+      "time" : {
+        "start" : 1683943091775,
+        "stop" : 1683943103803,
+        "duration" : 12028
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3ba876a7bc778131.json",
+  "parameterValues" : [ "('python',)" ]
+}

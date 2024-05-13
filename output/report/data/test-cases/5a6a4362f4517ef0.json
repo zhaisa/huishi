@@ -1,0 +1,75 @@
+{
+  "uid" : "5a6a4362f4517ef0",
+  "name" : "test_shenqingproduct[username0]",
+  "fullName" : "test_shenqingproduct.Test_ShenQingProduct#test_shenqingproduct",
+  "historyId" : "fb79d41fa183ff2653dcf61e9ecdc7ad",
+  "time" : {
+    "start" : 1686300979817,
+    "stop" : 1686300985780,
+    "duration" : 5963
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: sequence item 0: expected str instance, int found",
+  "statusTrace" : "self = <case.test_shenqingproduct.Test_ShenQingProduct object at 0x00000195903B34A8>\nusername = (1593983124,)\n\n    @pytest.mark.parametrize(\"username\",reda_pytestdata(yamlfile, 'test_shenqingproduct'))\n    def test_shenqingproduct(self,username):\n        wd = webdriver.Chrome()\n        wd.maximize_window()\n        wd.get('http://18.0.142.184:8769/ind_net_fvue/index')\n        #time.sleep(3)\n        wd.implicitly_wait(30)\n        try:\n            loginelement = wd.find_element(By.XPATH, '//*[@id=\"app\"]/section/div/div[1]/div/ul/div[2]/li[4]/div/span')\n            # //*[@id=\"app\"]/section/div/div[1]/div/ul/div[2]/li[4]/div/span\n        except NoSuchElementException:\n            print('没有登录这个元素')\n        loginelement.click()\n>       wd.find_element(By.XPATH,'//*[@id=\"app\"]/section/section/main/div/div/div/div/form/div[2]/div/div/input').send_keys(username)\n\ntest_shenqingproduct.py:27: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.remote.webelement.WebElement (session=\"a78b5cb3f7404dc68b435350dc41b05e\", element=\"BDF992F6BCDBA3D862C8567C9AABBA3F_element_18\")>\nvalue = ((1593983124,),)\n\n    def send_keys(self, *value) -> None:\n        \"\"\"Simulates typing into the element.\n    \n        :Args:\n            - value - A string for typing, or setting form fields.  For setting\n              file inputs, this could be a local file path.\n    \n        Use this to send simple key events or to fill out form fields::\n    \n            form_textfield = driver.find_element(By.NAME, 'username')\n            form_textfield.send_keys(\"admin\")\n    \n        This can also be used to set file inputs.\n    \n        ::\n    \n            file_input = driver.find_element(By.NAME, 'profilePic')\n            file_input.send_keys(\"path/to/profilepic.gif\")\n            # Generally it's better to wrap the file path in one of the methods\n            # in os.path to return the actual path to support cross OS testing.\n            # file_input.send_keys(os.path.abspath(\"path/to/profilepic.gif\"))\n        \"\"\"\n        # transfer file to another machine only if remote driver is used\n        # the same behaviour as for java binding\n        if self.parent._is_remote:\n            local_files = list(\n                map(\n                    lambda keys_to_send: self.parent.file_detector.is_local_file(str(keys_to_send)),\n                    \"\".join(map(str, value)).split(\"\\n\"),\n                )\n            )\n            if None not in local_files:\n                remote_files = []\n                for file in local_files:\n                    remote_files.append(self._upload(file))\n                value = \"\\n\".join(remote_files)\n    \n        self._execute(\n>           Command.SEND_KEYS_TO_ELEMENT, {\"text\": \"\".join(keys_to_typing(value)), \"value\": keys_to_typing(value)}\n        )\nE       TypeError: sequence item 0: expected str instance, int found\n\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py:231: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1686300979759,
+      "stop" : 1686300979816,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_shenqingproduct"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_ShenQingProduct"
+  }, {
+    "name" : "host",
+    "value" : "mrzhai"
+  }, {
+    "name" : "thread",
+    "value" : "15356-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_shenqingproduct"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "username",
+    "value" : "(1593983124,)"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a6a4362f4517ef0.json",
+  "parameterValues" : [ "(1593983124,)" ]
+}

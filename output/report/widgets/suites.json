@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "ab4ada4ac0adc7e88bc70e2a4eb4a9ce",
+    "name" : "test_answerquestion",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 5,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "ff37b61d0fc4995aca19df4d023546aa",
+    "name" : "test_addvisement",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "ced935d48e856df24079df0af7f64026",
+    "name" : "test_shenqingproduct",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "7db21133bf389fa43eef71e3fe0b0e68",
+    "name" : "test_login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

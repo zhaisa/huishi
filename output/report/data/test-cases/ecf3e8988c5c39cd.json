@@ -1,0 +1,68 @@
+{
+  "uid" : "ecf3e8988c5c39cd",
+  "name" : "test_add",
+  "fullName" : "test_addvisement#test_add",
+  "historyId" : "e059f0a32f93534582e39a1f705a9305",
+  "time" : {
+    "start" : 1679902034147,
+    "stop" : 1679902085882,
+    "duration" : 51735
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "62304bf93ed5ca96",
+      "name" : "stdout",
+      "source" : "62304bf93ed5ca96.txt",
+      "type" : "text/plain",
+      "size" : 266
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_addvisement"
+  }, {
+    "name" : "host",
+    "value" : "mrzhai"
+  }, {
+    "name" : "thread",
+    "value" : "36004-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_addvisement"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ecf3e8988c5c39cd.json",
+  "parameterValues" : [ ]
+}

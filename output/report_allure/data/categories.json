@@ -1,0 +1,350 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home",
+      "children" : [ {
+        "name" : "test_button",
+        "uid" : "ee007eee1cab7a75",
+        "parentUid" : "ef857d6f4cf4ffef3566c9593c3dd3b1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1700189307173,
+          "stop" : 1700189307702,
+          "duration" : 529
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_changqiguquan_yukeyanbeian",
+        "uid" : "a5bf8ab715b94019",
+        "parentUid" : "ef857d6f4cf4ffef3566c9593c3dd3b1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1700189307801,
+          "stop" : 1700189307991,
+          "duration" : 190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ef857d6f4cf4ffef3566c9593c3dd3b1"
+    }, {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('projectname', <FixtureRequest for <Function test_changqiguquan_lixiang>>)",
+      "children" : [ {
+        "name" : "test_changqiguquan_lixiang",
+        "uid" : "e49df7ada81202c",
+        "parentUid" : "3d8f21a2f1bf94bbe5a0c0b5faa07a1c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1700189307785,
+          "stop" : 1700189307785,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3d8f21a2f1bf94bbe5a0c0b5faa07a1c"
+    }, {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('projectname', <FixtureRequest for <Function test_changqiguquan_zongbujuece>>)",
+      "children" : [ {
+        "name" : "test_changqiguquan_zongbujuece",
+        "uid" : "b9d7e93c37f49e9",
+        "parentUid" : "c3290dd59e4e6f42330f3ba74e0df7ea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1700189308010,
+          "stop" : 1700189308010,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c3290dd59e4e6f42330f3ba74e0df7ea"
+    }, {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('projectname', <FixtureRequest for <Function test_chubuyusuan_PPP>>)",
+      "children" : [ {
+        "name" : "test_chubuyusuan_PPP",
+        "uid" : "354fe386749b3ac6",
+        "parentUid" : "bdc645257c34353358a534dc53f28827",
+        "status" : "broken",
+        "time" : {
+          "start" : 1700189308027,
+          "stop" : 1700189308028,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bdc645257c34353358a534dc53f28827"
+    }, {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('projectname', <FixtureRequest for <Function test_zhengshiyusuan_changqiguquan>>)",
+      "children" : [ {
+        "name" : "test_zhengshiyusuan_changqiguquan",
+        "uid" : "e7e5d34c74b33107",
+        "parentUid" : "fd9f4dee66a1fa350d68c78ffd3e472a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1700189308037,
+          "stop" : 1700189308037,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_zhengshiyusuan_changqiguquan",
+        "uid" : "66012f82d3196067",
+        "parentUid" : "fd9f4dee66a1fa350d68c78ffd3e472a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1700189308110,
+          "stop" : 1700189308110,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fd9f4dee66a1fa350d68c78ffd3e472a"
+    }, {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('projectname', <FixtureRequest for <Function test_chubuyusuan_gutou>>)",
+      "children" : [ {
+        "name" : "test_chubuyusuan_gutou",
+        "uid" : "517ada3fc3fa7d7",
+        "parentUid" : "1f0a9784b14684ef1d73236beb69bac7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1700189308045,
+          "stop" : 1700189308045,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1f0a9784b14684ef1d73236beb69bac7"
+    }, {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('projectname', <FixtureRequest for <Function test_zhengshiyusuan_zengzi>>)",
+      "children" : [ {
+        "name" : "test_zhengshiyusuan_zengzi",
+        "uid" : "8bd0acab3278a587",
+        "parentUid" : "1423da6c15a4a58048f402272e75db1b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1700189308054,
+          "stop" : 1700189308054,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_zhengshiyusuan_zengzi",
+        "uid" : "2c2695e8f55c4f9d",
+        "parentUid" : "1423da6c15a4a58048f402272e75db1b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1700189308059,
+          "stop" : 1700189308059,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_zhengshiyusuan_zengzi",
+        "uid" : "a18fb4b528d8f846",
+        "parentUid" : "1423da6c15a4a58048f402272e75db1b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1700189308131,
+          "stop" : 1700189308131,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1423da6c15a4a58048f402272e75db1b"
+    }, {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('projectname', <FixtureRequest for <Function test_touzixiangmuku>>)",
+      "children" : [ {
+        "name" : "test_touzixiangmuku",
+        "uid" : "ab376165eacd80bf",
+        "parentUid" : "4e6aa753ed687be1f0035064d351aac7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1700189308068,
+          "stop" : 1700189308068,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4e6aa753ed687be1f0035064d351aac7"
+    }, {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('company', <FixtureRequest for <Function test_jichuxinxi>>)",
+      "children" : [ {
+        "name" : "test_jichuxinxi",
+        "uid" : "9477d6b2f5a404c1",
+        "parentUid" : "d1821287147da4f8f3c7fcc8cf6d1c50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1700189308090,
+          "stop" : 1700189308090,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d1821287147da4f8f3c7fcc8cf6d1c50"
+    }, {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('projectname', <FixtureRequest for <Function test_zhengshiyusuan_PPP>>)",
+      "children" : [ {
+        "name" : "test_zhengshiyusuan_PPP",
+        "uid" : "ac8c16213c5550f1",
+        "parentUid" : "51f34f88fc0d813a2b799c501a9984ca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1700189308099,
+          "stop" : 1700189308099,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "51f34f88fc0d813a2b799c501a9984ca"
+    }, {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('projectname', <FixtureRequest for <Function test_zhengshiyusuan_gutou>>)",
+      "children" : [ {
+        "name" : "test_zhengshiyusuan_gutou",
+        "uid" : "e2b65d110b3d7b12",
+        "parentUid" : "26526979cb77aaf4ab352cae11693942",
+        "status" : "broken",
+        "time" : {
+          "start" : 1700189308119,
+          "stop" : 1700189308119,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "26526979cb77aaf4ab352cae11693942"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 1 == 0",
+      "children" : [ {
+        "name" : "test_lixiangbeian[\\u6d4b\\u8bd5\\u7acb\\u9879-202311241802-0-1-2]",
+        "uid" : "c60ef534ec19f9d",
+        "parentUid" : "de1b93b55edf560e1af8ac25c6a099ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1700820186176,
+          "stop" : 1700820243384,
+          "duration" : 57208
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "0", "'0'", "'测试立项-202311241802'" ]
+      }, {
+        "name" : "test_lixiangbeian[\\u6d4b\\u8bd5\\u7acb\\u9879-202311241802-0-2-2]",
+        "uid" : "450266e1c64fe8a",
+        "parentUid" : "de1b93b55edf560e1af8ac25c6a099ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1700820300254,
+          "stop" : 1700820354451,
+          "duration" : 54197
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "1", "'0'", "'测试立项-202311241802'" ]
+      } ],
+      "uid" : "de1b93b55edf560e1af8ac25c6a099ca"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

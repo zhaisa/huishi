@@ -1,0 +1,150 @@
+{
+  "uid" : "934b139a9897898d",
+  "name" : "test_add",
+  "fullName" : "test_addvisement#test_add",
+  "historyId" : "e059f0a32f93534582e39a1f705a9305",
+  "time" : {
+    "start" : 1681694817956,
+    "stop" : 1681694919385,
+    "duration" : 101429
+  },
+  "status" : "broken",
+  "statusMessage" : "UnboundLocalError: local variable 'loginelement' referenced before assignment",
+  "statusTrace" : "def test_add():\n        wd = webdriver.Chrome()\n        wd.maximize_window()\n        wd.get('http://10.22.33.101:32752/ind_net_fvue/index')\n        time.sleep(1)\n        try:\n            loginelement = wd.find_element(By.XPATH, '//*[@id=\"app\"]/section/div/div[1]/div/ul/div[2]/li[4]/span')\n        except NoSuchElementException:\n            print('没有登录这个元素')\n>       loginelement.click()\nE       UnboundLocalError: local variable 'loginelement' referenced before assignment\n\ntest_addvisement.py:23: UnboundLocalError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "UnboundLocalError: local variable 'loginelement' referenced before assignment",
+    "statusTrace" : "def test_add():\n        wd = webdriver.Chrome()\n        wd.maximize_window()\n        wd.get('http://10.22.33.101:32752/ind_net_fvue/index')\n        time.sleep(1)\n        try:\n            loginelement = wd.find_element(By.XPATH, '//*[@id=\"app\"]/section/div/div[1]/div/ul/div[2]/li[4]/span')\n        except NoSuchElementException:\n            print('没有登录这个元素')\n>       loginelement.click()\nE       UnboundLocalError: local variable 'loginelement' referenced before assignment\n\ntest_addvisement.py:23: UnboundLocalError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "af13e0378e10bd9b",
+      "name" : "stdout",
+      "source" : "af13e0378e10bd9b.txt",
+      "type" : "text/plain",
+      "size" : 25
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_addvisement"
+  }, {
+    "name" : "host",
+    "value" : "mrzhai"
+  }, {
+    "name" : "thread",
+    "value" : "17440-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_addvisement"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6a49202fcca4c4c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679902302536,
+        "stop" : 1679902353161,
+        "duration" : 50625
+      }
+    }, {
+      "uid" : "c9c6c5a5a639356f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679902250927,
+        "stop" : 1679902295267,
+        "duration" : 44340
+      }
+    }, {
+      "uid" : "c74ea61170bfa74a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679902198875,
+        "stop" : 1679902243744,
+        "duration" : 44869
+      }
+    }, {
+      "uid" : "6a2e4e0251512031",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679902146274,
+        "stop" : 1679902191707,
+        "duration" : 45433
+      }
+    }, {
+      "uid" : "a9d8fdd541e3e062",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679902093105,
+        "stop" : 1679902139128,
+        "duration" : 46023
+      }
+    }, {
+      "uid" : "ecf3e8988c5c39cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679902034147,
+        "stop" : 1679902085882,
+        "duration" : 51735
+      }
+    }, {
+      "uid" : "791c08ccffbe17d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679901977888,
+        "stop" : 1679902026897,
+        "duration" : 49009
+      }
+    }, {
+      "uid" : "900e0a795910c475",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679901902371,
+        "stop" : 1679901970807,
+        "duration" : 68436
+      }
+    }, {
+      "uid" : "20b948a50de08274",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679901846031,
+        "stop" : 1679901891138,
+        "duration" : 45107
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "934b139a9897898d.json",
+  "parameterValues" : [ ]
+}

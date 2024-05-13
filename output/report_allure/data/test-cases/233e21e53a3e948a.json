@@ -1,0 +1,94 @@
+{
+  "uid" : "233e21e53a3e948a",
+  "name" : "test_lixiangbeian[\\u6d4b\\u8bd5\\u7acb\\u9879-202311171337-0]",
+  "fullName" : "case.touzi.test_lixiangbeian#test_lixiangbeian",
+  "historyId" : "8a81e85829cb5477bfa0945861dc25ce",
+  "time" : {
+    "start" : 1700199437401,
+    "stop" : 1700199501495,
+    "duration" : 64094
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1700199437336,
+      "stop" : 1700199437400,
+      "duration" : 64
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "45572d0655a2474e",
+      "name" : "stdout",
+      "source" : "45572d0655a2474e.txt",
+      "type" : "text/plain",
+      "size" : 79
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case.touzi"
+  }, {
+    "name" : "suite",
+    "value" : "test_lixiangbeian"
+  }, {
+    "name" : "host",
+    "value" : "mrzhai"
+  }, {
+    "name" : "thread",
+    "value" : "3600-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.touzi.test_lixiangbeian"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "isyusuan",
+    "value" : "'0'"
+  }, {
+    "name" : "projectname",
+    "value" : "'测试立项-202311171337'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "233e21e53a3e948a.json",
+  "parameterValues" : [ "'0'", "'测试立项-202311171337'" ]
+}

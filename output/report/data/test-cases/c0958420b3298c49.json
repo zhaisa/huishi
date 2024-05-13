@@ -1,0 +1,126 @@
+{
+  "uid" : "c0958420b3298c49",
+  "name" : "test_shenqingproduct[username0]",
+  "fullName" : "test_shenqingproduct.Test_ShenQingProduct#test_shenqingproduct",
+  "historyId" : "fb79d41fa183ff2653dcf61e9ecdc7ad",
+  "time" : {
+    "start" : 1686303356873,
+    "stop" : 1686303403661,
+    "duration" : 46788
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1686303356821,
+      "stop" : 1686303356873,
+      "duration" : 52
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9846c3cf558c016b",
+      "name" : "stdout",
+      "source" : "9846c3cf558c016b.txt",
+      "type" : "text/plain",
+      "size" : 693
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_shenqingproduct"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_ShenQingProduct"
+  }, {
+    "name" : "host",
+    "value" : "mrzhai"
+  }, {
+    "name" : "thread",
+    "value" : "10400-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_shenqingproduct"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "username",
+    "value" : "('013700440224',)"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c790a60d7f52c1b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1686301590015,
+        "stop" : 1686301636042,
+        "duration" : 46027
+      }
+    }, {
+      "uid" : "8d412fd35d1feac8",
+      "status" : "broken",
+      "statusDetails" : "TypeError: sequence item 0: expected str instance, int found",
+      "time" : {
+        "start" : 1686301418540,
+        "stop" : 1686301424688,
+        "duration" : 6148
+      }
+    }, {
+      "uid" : "c586f23a0405c3d8",
+      "status" : "broken",
+      "statusDetails" : "TypeError: sequence item 0: expected str instance, int found",
+      "time" : {
+        "start" : 1686301079712,
+        "stop" : 1686301085599,
+        "duration" : 5887
+      }
+    }, {
+      "uid" : "5a6a4362f4517ef0",
+      "status" : "broken",
+      "statusDetails" : "TypeError: sequence item 0: expected str instance, int found",
+      "time" : {
+        "start" : 1686300979817,
+        "stop" : 1686300985780,
+        "duration" : 5963
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c0958420b3298c49.json",
+  "parameterValues" : [ "('013700440224',)" ]
+}

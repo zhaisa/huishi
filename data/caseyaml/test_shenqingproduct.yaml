@@ -1,0 +1,9 @@
+- model: Test_ShenQingProduct  # 对应case的类名称
+
+- casename: test_shenqingproduct     # 对应类的 函数
+  title: 输入搜索内容            # 操作标题
+  precond:        # 前置说明
+  testdata: # 测试数据 /列表
+    - username: "013700440224"
+
+

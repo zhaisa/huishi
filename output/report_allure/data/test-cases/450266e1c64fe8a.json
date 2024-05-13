@@ -1,0 +1,132 @@
+{
+  "uid" : "450266e1c64fe8a",
+  "name" : "test_lixiangbeian[\\u6d4b\\u8bd5\\u7acb\\u9879-202311241802-0-2-2]",
+  "fullName" : "case.touzi.test_lixiangbeian#test_lixiangbeian",
+  "historyId" : "66ccab3b54ed68df13ad7e976462af47",
+  "time" : {
+    "start" : 1700820300254,
+    "stop" : 1700820354451,
+    "duration" : 54197
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1 == 0",
+  "statusTrace" : "projectname = '测试立项-202311241802', isyusuan = '0'\n\n>   ???\nE   assert 1 == 0\n\ncase\\touzi\\test_lixiangbeian.py:400: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1700820124333,
+      "stop" : 1700820124408,
+      "duration" : 75
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "wd",
+    "time" : {
+      "start" : 1700820124408,
+      "stop" : 1700820129350,
+      "duration" : 4942
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 1 == 0",
+    "statusTrace" : "projectname = '测试立项-202311241802', isyusuan = '0'\n\n>   ???\nE   assert 1 == 0\n\ncase\\touzi\\test_lixiangbeian.py:400: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "75655f449dc65260",
+      "name" : "stdout",
+      "source" : "75655f449dc65260.txt",
+      "type" : "text/plain",
+      "size" : 158
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "flaky(resuns=3, reruns_delay=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case.touzi"
+  }, {
+    "name" : "suite",
+    "value" : "test_lixiangbeian"
+  }, {
+    "name" : "host",
+    "value" : "mrzhai"
+  }, {
+    "name" : "thread",
+    "value" : "23412-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.touzi.test_lixiangbeian"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "__pytest_repeat_step_number",
+    "value" : "1"
+  }, {
+    "name" : "isyusuan",
+    "value" : "'0'"
+  }, {
+    "name" : "projectname",
+    "value" : "'测试立项-202311241802'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "846b10646847e9ef",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 0",
+      "time" : {
+        "start" : 1700820243399,
+        "stop" : 1700820299238,
+        "duration" : 55839
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "flaky(resuns=3, reruns_delay=1)" ]
+  },
+  "source" : "450266e1c64fe8a.json",
+  "parameterValues" : [ "1", "'0'", "'测试立项-202311241802'" ]
+}

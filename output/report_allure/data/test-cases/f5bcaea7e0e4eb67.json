@@ -1,0 +1,100 @@
+{
+  "uid" : "f5bcaea7e0e4eb67",
+  "name" : "test_lixiangbeian[\\u6d4b\\u8bd5\\u7acb\\u9879-202311171413-0-1-3]",
+  "fullName" : "case.touzi.test_lixiangbeian#test_lixiangbeian",
+  "historyId" : "54016af2efc4998aeed49e290c1764dc",
+  "time" : {
+    "start" : 1700201638326,
+    "stop" : 1700201698187,
+    "duration" : 59861
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1700201638262,
+      "stop" : 1700201638325,
+      "duration" : 63
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ec5cbcd25926dc20",
+      "name" : "stdout",
+      "source" : "ec5cbcd25926dc20.txt",
+      "type" : "text/plain",
+      "size" : 79
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "repeat(3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case.touzi"
+  }, {
+    "name" : "suite",
+    "value" : "test_lixiangbeian"
+  }, {
+    "name" : "host",
+    "value" : "mrzhai"
+  }, {
+    "name" : "thread",
+    "value" : "27536-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.touzi.test_lixiangbeian"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "__pytest_repeat_step_number",
+    "value" : "0"
+  }, {
+    "name" : "isyusuan",
+    "value" : "'0'"
+  }, {
+    "name" : "projectname",
+    "value" : "'测试立项-202311171413'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "repeat(3)" ]
+  },
+  "source" : "f5bcaea7e0e4eb67.json",
+  "parameterValues" : [ "0", "'0'", "'测试立项-202311171413'" ]
+}

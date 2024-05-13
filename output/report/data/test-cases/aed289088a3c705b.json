@@ -1,0 +1,89 @@
+{
+  "uid" : "aed289088a3c705b",
+  "name" : "test_answerquestion[content4]",
+  "fullName" : "test_answerquestion.Test_Answerquestion#test_answerquestion",
+  "historyId" : "041a02ed189d1b614b5dd952f8315752",
+  "time" : {
+    "start" : 1684117846258,
+    "stop" : 1684117898764,
+    "duration" : 52506
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1684117631283,
+      "stop" : 1684117631366,
+      "duration" : 83
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c845e6e3c62ec1ac",
+      "name" : "stdout",
+      "source" : "c845e6e3c62ec1ac.txt",
+      "type" : "text/plain",
+      "size" : 111
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_answerquestion"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Answerquestion"
+  }, {
+    "name" : "host",
+    "value" : "mrzhai"
+  }, {
+    "name" : "thread",
+    "value" : "27388-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_answerquestion"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "content",
+    "value" : "('请问安装mysql的时候，为什么要先创建data?不创建就无法启动',)"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aed289088a3c705b.json",
+  "parameterValues" : [ "('请问安装mysql的时候，为什么要先创建data?不创建就无法启动',)" ]
+}

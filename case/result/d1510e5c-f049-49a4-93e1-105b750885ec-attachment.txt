@@ -1,0 +1,5 @@
+http://18.0.142.184:8769/ind_net_fvue/my_SQL
+http://18.0.142.185:9908/portal/pageView?pageId=index&title=%E7%94%B3%E8%AF%B7-TDSQL-MySQL-ren&url=%2Fepm-dcweb%2FshopCart%2Fapply%2Fbase%2F1109177498555379712%3FprojectId%3D0%401663112508021096448
+<selenium.webdriver.remote.webelement.WebElement (session="116db1dc169c2e2dec81227f2dde87c3", element="A3E6FF7CF11A4F15684E23682014D73F_element_59")>
+<selenium.webdriver.remote.webelement.WebElement (session="116db1dc169c2e2dec81227f2dde87c3", element="A3E6FF7CF11A4F15684E23682014D73F_element_37")>
+<selenium.webdriver.remote.webelement.WebElement (session="116db1dc169c2e2dec81227f2dde87c3", element="A3E6FF7CF11A4F15684E23682014D73F_element_60")>

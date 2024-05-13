@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "34d293c7ee3eac9dbf8b0b4345f10b07",
+    "name" : "case.touzi",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 15,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 21
+    }
+  } ]
+}

@@ -1,0 +1,4 @@
+http://10.22.33.101:32752/ind_net_fvue/login/indnet
+//*[@id="dropdown-menu-2568"]/li[1]
+http://10.22.33.101:32752/ind_net_fvue/businessCenter/integratedConfig/tenantMgt
+第二个动态jxpath://*[@id="el-collapse-content-7694"]/div/div[1]/div[1]/div/div/div[1]/input

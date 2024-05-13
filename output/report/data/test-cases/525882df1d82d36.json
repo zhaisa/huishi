@@ -1,0 +1,86 @@
+{
+  "uid" : "525882df1d82d36",
+  "name" : "test_answerquestion",
+  "fullName" : "test_answerquestion#test_answerquestion",
+  "historyId" : "ef85525539ef14070a2daa8934e1c5f7",
+  "time" : {
+    "start" : 1683689359712,
+    "stop" : 1683689359712,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'function' object has no attribute 'Chrome'",
+  "statusTrace" : "@pytest.fixture(scope='function')\n    def webdriver():\n>       wd= webdriver.Chrome()\nE       AttributeError: 'function' object has no attribute 'Chrome'\n\nconftest.py:6: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1683689359713,
+      "stop" : 1683689359765,
+      "duration" : 52
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "webdriver",
+    "time" : {
+      "start" : 1683689359765,
+      "stop" : 1683689359765,
+      "duration" : 0
+    },
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'function' object has no attribute 'Chrome'\n",
+    "statusTrace" : "  File \"D:\\gyhlw\\venv\\lib\\site-packages\\pluggy\\_callers.py\", line 39, in _multicall\n    res = hook_impl.function(*args)\n  File \"D:\\gyhlw\\venv\\lib\\site-packages\\_pytest\\fixtures.py\", line 1129, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"D:\\gyhlw\\venv\\lib\\site-packages\\_pytest\\fixtures.py\", line 901, in call_fixture_func\n    fixture_result = next(generator)\n  File \"D:\\gyhlw\\case\\conftest.py\", line 6, in webdriver\n    wd= webdriver.Chrome()\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_answerquestion"
+  }, {
+    "name" : "host",
+    "value" : "mrzhai"
+  }, {
+    "name" : "thread",
+    "value" : "2712-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_answerquestion"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "525882df1d82d36.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,89 @@
+{
+  "uid" : "c790a60d7f52c1b1",
+  "name" : "test_shenqingproduct[username0]",
+  "fullName" : "test_shenqingproduct.Test_ShenQingProduct#test_shenqingproduct",
+  "historyId" : "fb79d41fa183ff2653dcf61e9ecdc7ad",
+  "time" : {
+    "start" : 1686301590015,
+    "stop" : 1686301636042,
+    "duration" : 46027
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1686301589961,
+      "stop" : 1686301590014,
+      "duration" : 53
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7e1c73e337a29200",
+      "name" : "stdout",
+      "source" : "7e1c73e337a29200.txt",
+      "type" : "text/plain",
+      "size" : 693
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_shenqingproduct"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_ShenQingProduct"
+  }, {
+    "name" : "host",
+    "value" : "mrzhai"
+  }, {
+    "name" : "thread",
+    "value" : "20648-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_shenqingproduct"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "username",
+    "value" : "('013700440224',)"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c790a60d7f52c1b1.json",
+  "parameterValues" : [ "('013700440224',)" ]
+}

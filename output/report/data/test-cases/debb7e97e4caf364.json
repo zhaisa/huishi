@@ -1,0 +1,107 @@
+{
+  "uid" : "debb7e97e4caf364",
+  "name" : "test_answerquestion[content3]",
+  "fullName" : "test_answerquestion.Test_Answerquestion#test_answerquestion",
+  "historyId" : "b0aaccd48606a59c5e187f098ae22aee",
+  "time" : {
+    "start" : 1684460125659,
+    "stop" : 1684460183949,
+    "duration" : 58290
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1684459999113,
+      "stop" : 1684459999160,
+      "duration" : 47
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "af55d507a4977de4",
+      "name" : "stdout",
+      "source" : "af55d507a4977de4.txt",
+      "type" : "text/plain",
+      "size" : 111
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_answerquestion"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Answerquestion"
+  }, {
+    "name" : "host",
+    "value" : "mrzhai"
+  }, {
+    "name" : "thread",
+    "value" : "2388-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_answerquestion"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "content",
+    "value" : "('js',)"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c74dd71067f36c26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684117798957,
+        "stop" : 1684117846252,
+        "duration" : 47295
+      }
+    }, {
+      "uid" : "d85564b2553c2b0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683947847071,
+        "stop" : 1683947894826,
+        "duration" : 47755
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "debb7e97e4caf364.json",
+  "parameterValues" : [ "('js',)" ]
+}
