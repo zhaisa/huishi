@@ -1902,3 +1902,519 @@ JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error:
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1715735568662	geckodriver	INFO	Listening on 127.0.0.1:64122
+1715735571761	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64123" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileLMjDcp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715735572161	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1715735572166	Marionette	INFO	Listening on port 64134
+Read port: 64134
+WebDriver BiDi listening on ws://127.0.0.1:64123
+1715735572365	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileLMjDcp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64123/devtools/browser/2537fb33-2d8f-4919-b4f0-252fbd0b22d3
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+1715735710124	Marionette	INFO	Stopped listening on port 64134
+Dynamically enable window occlusion 1
+1715735712444	geckodriver	INFO	Listening on 127.0.0.1:64307
+1715735715519	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64308" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileaPOaA8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715735715805	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1715735715809	Marionette	INFO	Listening on port 64316
+Read port: 64316
+WebDriver BiDi listening on ws://127.0.0.1:64308
+1715735716003	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileaPOaA8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64308/devtools/browser/7b88011c-b026-4d37-be0a-494f9f9e99ff
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+1715735931251	Marionette	INFO	Stopped listening on port 64316
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64554" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofilewGnbcO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715735930947	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1715735930952	Marionette	INFO	Listening on port 64561
+Read port: 64561
+WebDriver BiDi listening on ws://127.0.0.1:64554
+1715735931210	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofilewGnbcO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64554/devtools/browser/39840437-cb3f-41a3-be19-6ce1298a2ce5
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/chunk-3fc8b977.3af16e95.js, line 12: TypeError: e.value is undefined
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/chunk-3fc8b977.3af16e95.js, line 12: TypeError: e.value is undefined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.153:31376."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.153:31376."
+1715741405629	Marionette	INFO	Stopped listening on port 64561
+Dynamically enable window occlusion 1
+1715915092965	geckodriver	INFO	Listening on 127.0.0.1:63407
+1715915096001	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63408" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofilewEIZmc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715915096425	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1715915096432	Marionette	INFO	Listening on port 63417
+Read port: 63417
+WebDriver BiDi listening on ws://127.0.0.1:63408
+1715915096668	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofilewEIZmc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63408/devtools/browser/90327cce-44ef-47fd-a1fc-440169494654
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.153:31376."
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.153:31376."
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1715918576317	Marionette	INFO	Stopped listening on port 63417
+Dynamically enable window occlusion 1
+osts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileGCK7Lt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715917851498	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1715917851503	Marionette	INFO	Listening on port 65323
+Read port: 65323
+WebDriver BiDi listening on ws://127.0.0.1:65314
+1715917851716	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileGCK7Lt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65314/devtools/browser/5185360b-c0cb-4557-808b-22ab648b2732
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+1715918443123	Marionette	INFO	Stopped listening on port 65323
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50034" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofilelC7J09"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715918419767	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1715918419858	Marionette	INFO	Listening on port 50057
+Read port: 50057
+Read port: 50057
+Read port: 50057
+Read port: 50057
+WebDriver BiDi listening on ws://127.0.0.1:50034
+1715918425079	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.sys.mjs: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 416))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofilelC7J09\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50034/devtools/browser/24d87b2c-9417-48b2-9d4f-06767089eef9
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+1715918499302	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.153:31376."
+1715918559710	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1715918702661	Marionette	INFO	Stopped listening on port 50057
+Dynamically enable window occlusion 1
+[Parent 4860, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+s\\AppData\\Local\\Temp\\rust_mozprofileEQJ8NZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715918702397	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1715918702401	Marionette	INFO	Listening on port 50324
+Read port: 50324
+WebDriver BiDi listening on ws://127.0.0.1:50315
+1715918702714	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileEQJ8NZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50315/devtools/browser/28f1f36f-df93-406a-838f-bd775833ea6a
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.153:31376."
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1715925390333	Marionette	INFO	Stopped listening on port 50324
+Dynamically enable window occlusion 1
+osts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileIN0jR2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715925088785	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1715925088789	Marionette	INFO	Listening on port 64765
+Read port: 64765
+WebDriver BiDi listening on ws://127.0.0.1:64755
+1715925088975	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileIN0jR2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64755/devtools/browser/71cbdcc6-9b37-4f88-b07e-8470aab48518
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.153:31376."
+1715925384550	Marionette	INFO	Stopped listening on port 64765
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64999" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileenZ8DR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715925360768	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1715925360772	Marionette	INFO	Listening on port 65007
+Read port: 65007
+WebDriver BiDi listening on ws://127.0.0.1:64999
+1715925360957	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileenZ8DR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64999/devtools/browser/8138c073-e677-449a-b72b-54497d7c808e
+1715925372011	Marionette	INFO	Stopped listening on port 65007
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1715925413750	geckodriver	INFO	Listening on 127.0.0.1:65083
+1715925416815	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65084" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileIVRRTY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715925417063	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1715925417067	Marionette	INFO	Listening on port 65091
+Read port: 65091
+WebDriver BiDi listening on ws://127.0.0.1:65084
+1715925417243	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileIVRRTY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65084/devtools/browser/db22e3d3-1f28-4755-954e-b4fa6feb1d04
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+1715925883800	Marionette	INFO	Stopped listening on port 65091
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65445" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileE2m7gh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715925883157	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1715925883162	Marionette	INFO	Listening on port 65452
+Read port: 65452
+WebDriver BiDi listening on ws://127.0.0.1:65445
+1715925883349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileE2m7gh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65445/devtools/browser/6a5236ed-9659-47ba-aaea-506228ef3e31
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.153:31376."
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1715926182718	Marionette	INFO	Stopped listening on port 65452
+Dynamically enable window occlusion 1
+osts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofilejLfUOE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715926180550	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1715926180554	Marionette	INFO	Listening on port 49319
+Read port: 49319
+WebDriver BiDi listening on ws://127.0.0.1:49312
+1715926180724	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofilejLfUOE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49312/devtools/browser/d6f0b8f7-b57e-4124-8116-dd69e8cf8be6
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.153:31376."
+1715926392937	Marionette	INFO	Stopped listening on port 49319
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49785" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofilefngkeh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715926390036	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1715926390041	Marionette	INFO	Listening on port 49794
+Read port: 49794
+WebDriver BiDi listening on ws://127.0.0.1:49785
+1715926390234	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofilefngkeh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49785/devtools/browser/fec321f7-1b20-4438-aeff-7a05386e81d6
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.153:31376."
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1715926605238	Marionette	INFO	Stopped listening on port 49794
+Dynamically enable window occlusion 1
+osts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofilems1bxv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715926600600	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1715926600604	Marionette	INFO	Listening on port 50076
+Read port: 50076
+WebDriver BiDi listening on ws://127.0.0.1:50066
+1715926600781	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofilems1bxv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50066/devtools/browser/0a23e1b5-ffb5-406d-b5a9-8b4370671736
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.153:31376."
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1715926838397	Marionette	INFO	Stopped listening on port 50076
+Dynamically enable window occlusion 1
+1715926841071	geckodriver	INFO	Listening on 127.0.0.1:50361
+1715926844124	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50362" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileJFCmjG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715926844378	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1715926844382	Marionette	INFO	Listening on port 50371
+Read port: 50371
+WebDriver BiDi listening on ws://127.0.0.1:50362
+1715926844560	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileJFCmjG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50362/devtools/browser/cbced17f-78cd-4acc-88f9-310061011c4b
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.153:31376."
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1715927422870	Marionette	INFO	Stopped listening on port 50371
+Dynamically enable window occlusion 1
+1715927430354	geckodriver	INFO	Listening on 127.0.0.1:51124
+1715927433401	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51125" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofile3tAM2J"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715927433657	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1715927433661	Marionette	INFO	Listening on port 51149
+Read port: 51149
+WebDriver BiDi listening on ws://127.0.0.1:51125
+1715927433856	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofile3tAM2J\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51125/devtools/browser/596e0b2b-e1e2-4472-9cdd-cd8f02d89e28
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+1715927620803	Marionette	INFO	Stopped listening on port 51149
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51391" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileeFdGE8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715927618713	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1715927618716	Marionette	INFO	Listening on port 51400
+Read port: 51400
+WebDriver BiDi listening on ws://127.0.0.1:51391
+1715927618923	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileeFdGE8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51391/devtools/browser/c609d98e-d7e3-40d5-baf6-93b7c0add9ac
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.153:31376."
+1715927704689	Marionette	INFO	Stopped listening on port 51400
+Dynamically enable window occlusion 1
+1715927739773	geckodriver	INFO	Listening on 127.0.0.1:51577
+1715927742838	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51578" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileFQoxcD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715927743091	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1715927743094	Marionette	INFO	Listening on port 51591
+Read port: 51591
+WebDriver BiDi listening on ws://127.0.0.1:51578
+1715927743272	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileFQoxcD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51578/devtools/browser/ce862f23-1240-4fe0-b204-d1e309212beb
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.153:31376."
+1715929554834	Marionette	INFO	Stopped listening on port 51591
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51778" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofile7R9BgN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715927868795	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1715927868799	Marionette	INFO	Listening on port 51787
+Read port: 51787
+WebDriver BiDi listening on ws://127.0.0.1:51778
+1715927868985	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofile7R9BgN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51778/devtools/browser/dce6d8fa-f936-4fb3-a0f9-b5f939f6e0b8
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.153:31376."
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1715929556670	Marionette	INFO	Stopped listening on port 51787
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52312" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileyGGhwR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715928232878	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1715928232882	Marionette	INFO	Listening on port 52323
+Read port: 52323
+WebDriver BiDi listening on ws://127.0.0.1:52312
+1715928233066	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileyGGhwR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52312/devtools/browser/797ab24f-528e-4ce7-8291-6578c2c67d82
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.153:31376."
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1715928629905	Marionette	INFO	Stopped listening on port 52323
+Dynamically enable window occlusion 1
+console.warn: services.settings: main/password-rules sync interrupted by shutdown
+console.warn: services.settings: main/fxmonitor-breaches sync interrupted by shutdown
+console.warn: services.settings: main/addons-manager-settings sync interrupted by shutdown
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.warn: services.settings: main/url-classifier-skip-urls sync interrupted by shutdown
+console.warn: services.settings: main/search-default-override-allowlist sync interrupted by shutdown
+console.warn: services.settings: security-state/cert-revocations sync interrupted by shutdown
+console.warn: services.settings: security-state/intermediates sync interrupted by shutdown
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+1715928632670	geckodriver	INFO	Listening on 127.0.0.1:52784
+1715928635724	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52785" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileRHybz0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715928635988	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1715928635992	Marionette	INFO	Listening on port 52795
+Read port: 52795
+WebDriver BiDi listening on ws://127.0.0.1:52785
+1715928636199	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileRHybz0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52785/devtools/browser/e18c6ee2-774f-475c-a139-1ad912b87525
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.153:31376."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.153:31376."
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: http://10.22.33.153:31376/gdzbgtt/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+1715940205832	Marionette	INFO	Stopped listening on port 52795
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
