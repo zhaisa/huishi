@@ -1417,3 +1417,114 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://1
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.45:8769."
 1714967802542	Marionette	INFO	Stopped listening on port 60993
 Dynamically enable window occlusion 1
+1717049816884	geckodriver	INFO	Listening on 127.0.0.1:65179
+1717049819092	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65180" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofilevYNM1m"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1717049819501	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1717049819506	Marionette	INFO	Listening on port 65191
+Read port: 65191
+WebDriver BiDi listening on ws://127.0.0.1:65180
+1717049819813	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofilevYNM1m\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65180/devtools/browser/5772fb8f-7d14-48eb-b6b0-7daaaa38ca27
+JavaScript error: http://10.22.33.45:8769/hub/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+1717050797351	Marionette	INFO	Stopped listening on port 65191
+Dynamically enable window occlusion 1
+cd9-8ce7-8ab8cddb5b3d
+JavaScript error: http://10.22.33.45:8769/hub/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.45:8769."
+1717050060646	Marionette	INFO	Stopped listening on port 65351
+Dynamically enable window occlusion 1
+1717050064597	geckodriver	INFO	Listening on 127.0.0.1:65442
+1717050067674	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65443" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileoR0O8l"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1717050067974	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1717050067979	Marionette	INFO	Listening on port 65450
+Read port: 65450
+WebDriver BiDi listening on ws://127.0.0.1:65443
+1717050068244	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileoR0O8l\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65443/devtools/browser/fef8ae21-723a-4dde-82f4-e737d49caf4e
+JavaScript error: http://10.22.33.45:8769/hub/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.45:8769."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.45:8769."
+1717050195181	Marionette	INFO	Stopped listening on port 65450
+Dynamically enable window occlusion 1
+1717050197759	geckodriver	INFO	Listening on 127.0.0.1:49165
+1717050200811	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49166" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileOQTjpX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1717050201115	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1717050201119	Marionette	INFO	Listening on port 49184
+Read port: 49184
+WebDriver BiDi listening on ws://127.0.0.1:49166
+1717050201384	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileOQTjpX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49166/devtools/browser/8d31713b-93d2-45c2-8e8e-c99040a39148
+JavaScript error: http://10.22.33.45:8769/hub/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.45:8769."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.45:8769."
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1717050436034	Marionette	INFO	Stopped listening on port 49184
+Dynamically enable window occlusion 1
+osts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileel31xR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1717050434943	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1717050434947	Marionette	INFO	Listening on port 49346
+Read port: 49346
+WebDriver BiDi listening on ws://127.0.0.1:49339
+1717050435212	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhais\\AppData\\Local\\Temp\\rust_mozprofileel31xR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49339/devtools/browser/ee7e1cbf-10a7-4b4d-9eae-7c3913d014b2
+JavaScript error: http://10.22.33.45:8769/hub/js/vendor-manifest.json, line 1: SyntaxError: unexpected token: ':'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.45:8769."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.22.33.45:8769."
+1717050557753	Marionette	INFO	Stopped listening on port 49346
+Dynamically enable window occlusion 1
